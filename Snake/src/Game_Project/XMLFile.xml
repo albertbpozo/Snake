@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Atributos>
+  <Easy>
+    <Columns>7</Columns>
+    <Rows>7</Rows>
+    <Time>200</Time>
+    <V>10</V>
+    <Food>6</Food>
+    <IncrementoFood>1</IncrementoFood>
+    <dificultad> 0 </dificultad>
+    <SliderSize> 700</SliderSize>
+
+  </Easy>
+  <Medium>
+    <Columns>6</Columns>
+    <Rows>6</Rows>
+    <Time>100</Time>
+    <V>20</V>
+    <Food>12</Food>
+    <IncrementoFood>2</IncrementoFood>
+    <dificultad> 1 </dificultad>
+    <SliderSize> 600</SliderSize>
+
+  </Medium>
+  <Hard>
+    <Columns>5</Columns>
+    <Rows>5</Rows>
+    <Time>50</Time>
+    <V>30</V>
+    <Food>18</Food>
+    <IncrementoFood>4</IncrementoFood>
+    <dificultad> 2 </dificultad>
+    <SliderSize> 500</SliderSize>
+  </Hard>
+</Atributos>

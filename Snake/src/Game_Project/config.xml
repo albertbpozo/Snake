@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<variables>
+	<easy>
+		<rows>25</rows>
+		<columns>25</columns>
+		<time>120</time>
+		<speed>3</speed>
+		<initial>5</initial>
+		<incremental>2</incremental>
+	</easy>
+
+	<medium>
+		<rows>10</rows>
+		<columns>10</columns>
+		<time>60</time>
+		<speed>2</speed>
+		<initial>10</initial>
+		<incremental>4</incremental>
+	</medium>
+
+	<hard>
+		<rows>5</rows>
+		<columns>5</columns>
+		<time>30</time>
+		<speed>1</speed>
+		<initial>15</initial>
+		<incremental>12</incremental>
+	</hard>
+</variables>

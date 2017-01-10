@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Controller">
+      <UniqueIdentifier>{6f2fd01f-6013-4ec8-a8a5-444244824c0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Model">
+      <UniqueIdentifier>{c60345ab-20c9-4158-a6e8-1b7534875368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View">
+      <UniqueIdentifier>{5d6e6345-9c98-4144-92ed-b0dcc95151e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{b0d10c87-e7ea-4aa8-80cb-2e3b7dee2e6b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="Assert.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="ID.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprites.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="InputManager.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeManager.h">
+      <Filter>Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="IOManager.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Color.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Niveles.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Snake.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="XML.h" />
+    <ClInclude Include="GameScene.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Apple.h">
+      <Filter>Model</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Niveles.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Snake.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Apple.cpp">
+      <Filter>Model</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="XMLFile.xml">
+      <Filter>Model</Filter>
+    </Xml>
+  </ItemGroup>
+</Project>
